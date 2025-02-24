@@ -1,0 +1,255 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #002e74;
+}
+
+.wrapper {
+  position: relative;
+  min-width: 840px;
+  min-height: 602px;
+  margin: auto;
+}
+
+.background {
+  width: 840px;
+  height: 602px;
+  margin: auto;
+  z-index: 0;
+  position: relative;
+}
+
+.topper {
+  background-color: #757676;
+  height: 27px;
+  width: 822px;
+  opacity: 0.7;
+  position: absolute;
+  /* top: 0px; 
+  z-index: 10; */
+  top: 12px;
+  left: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.header {
+  font-size: 14px;
+  position: absolute;
+  top: 10px;
+  left: 340px;
+  color: black;
+}
+
+.mini {
+  background-color: #a2c0fd;
+  border: 2px solid #3f517a;
+  border-radius: 5px;
+  color: #012367;
+  height: 22px;
+  width: 22px;
+  font-size: 20px;
+  position: absolute;
+  top: 15px;
+  right: 836px;
+}
+
+.close {
+  background-color: #a2c0fd;
+  border: 2px solid #3f517a;
+  border-radius: 5px;
+  color: #012367;
+  height: 22px;
+  width: 22px;
+  font-size: 20px;
+  position: relative;
+  top: 0px;
+  /*15*/
+  right: 812px;
+}
+
+.side {
+  background-color: #97cbff;
+  width: 210px;
+  /*215*/
+  height: 536px;
+  /*676*/
+  border: 9px solid #55709d;
+  border-radius: 12px;
+  position: absolute;
+  top: 43px;
+  /*60*/
+  left: 10px;
+}
+
+.logo3 {
+  width: 150px;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.play {
+  background: linear-gradient(#2d6ac0, #41bbda);
+  color: #002e74;
+  border-color: #c4ced2;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 75px;
+  /*Same*/
+  height: 75px;
+  font-size: 35px;
+  border-radius: 35px;
+  position: absolute;
+  top: 165px;
+  left: 70px;
+  border-width: 4px;
+}
+
+.welcome {
+  color: #002e72;
+  width: 190px;
+  height: 35px;
+  position: absolute;
+  bottom: 221px;
+  left: 10px;
+  border-radius: 5px;
+  background: linear-gradient(#b4ccff, #75a1ff);
+  border: 1px solid #002e72;
+  z-index: 3;
+}
+
+.Exp {
+  color: #002e72;
+  width: 190px;
+  height: 35px;
+  border-radius: 5px;
+  background: linear-gradient(#b4ccff, #75a1ff);
+  border: 1px solid #002e72;
+  position: absolute;
+  bottom: 177px;
+  left: 10px;
+  z-index: 3;
+}
+
+.Down {
+  color: #002e72;
+  width: 190px;
+  height: 35px;
+  border-radius: 5px;
+  background: linear-gradient(#b4ccff, #75a1ff);
+  border: 1px solid #002e72;
+  position: absolute;
+  left: 10px;
+  bottom: 133px;
+  z-index: 3; 
+  box-shadow: 0 0 3px 1px white;
+}
+
+.Content {
+  color: #002e72;
+  width: 190px;
+  height: 35px;
+  border-radius: 5px;
+  background: linear-gradient(#b4ccff, #75a1ff);
+  border: 1px solid #002e72;
+  position: absolute;
+  left: 10px;
+  bottom: 89px;
+  z-index: 3;
+}
+
+.Uploads {
+  color: #002e72;
+  width: 190px;
+  height: 35px;
+  border-radius: 5px;
+  background: linear-gradient(#b4ccff, #75a1ff);
+  border: 1px solid #002e72;
+  position: absolute;
+  left: 10px;
+  bottom: 45px;
+  z-index: 3;
+}
+
+.version {
+  color: #1b3f86;
+  position: absolute;
+  left: 80px;
+  bottom: 23px;
+}
+
+.info {
+  color: #1b3f86;
+  position: absolute;
+  left: 60px;
+  bottom: 2px;
+}
+.second {
+  position: absolute;
+  top: 44px;
+  left: 245px;
+  background-color: #42669f;
+  border: 2px solid #384d7b;
+  border-radius: 5px;
+  width: 578px;
+  height: 548px;
+  /*541*/
+  z-index: 1;
+  opacity: 0.9;
+}
+.third {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  height: 519px;
+  width: 550px;
+  background-color: #a5ddff;
+  border: 6px solid #384d7b;
+  border-radius: 5px;
+}.point {
+  position: absolute;
+  top: 3px;
+  right: 6px;
+  color: #1e3c79;
+  font-size: 25px;
+  z-index: 3;
+}
+.welcome:hover {
+  background: #6c9cff;
+}
+
+.Exp:hover {
+  background: #6c9cff;
+}
+
+.Down:hover {
+  background: #6c9cff;
+}
+
+.Content:hover {
+  background: #6c9cff;
+}
+
+.Uploads:hover {
+  background: #6c9cff;
+}
+/* Stop Here */ 
+.title{
+  position: absolute; 
+  top: 70px; 
+  left: 308px; 
+  font-size: 18px;
+  z-index: 2;
+}
+.box{ /* Class allowed to move */  
+  position: absolute;
+  top: 46px; 
+  left: 250px; 
+  z-index: 2; 
+  width: 50px; 
+}

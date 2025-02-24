@@ -1,0 +1,651 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #002e74;
+}
+
+.wrapper {
+  position: relative;
+  min-width: 840px;
+  min-height: 602px;
+  margin: auto;
+}
+
+.background {
+  width: 840px;
+  height: 602px;
+  margin: auto;
+  z-index: 0;
+  position: relative;
+}
+
+.topper {
+  background-color: #757676;
+  height: 27px;
+  width: 822px;
+  opacity: 0.7;
+  position: absolute;
+  /* top: 0px; 
+  z-index: 10; */
+  top: 12px;
+  left: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.header {
+  font-size: 14px;
+  position: absolute;
+  top: 10px;
+  left: 340px;
+  color: black;
+}
+
+.mini {
+  background-color: #a2c0fd;
+  border: 2px solid #3f517a;
+  border-radius: 5px;
+  color: #012367;
+  height: 22px;
+  width: 22px;
+  font-size: 20px;
+  position: absolute;
+  top: 15px;
+  right: 836px;
+}
+
+.close {
+  background-color: #a2c0fd;
+  border: 2px solid #3f517a;
+  border-radius: 5px;
+  color: #012367;
+  height: 22px;
+  width: 22px;
+  font-size: 20px;
+  position: relative;
+  top: 0px;
+  /*15*/
+  right: 812px;
+}
+
+.side {
+  background-color: #97cbff;
+  width: 210px;
+  /*215*/
+  height: 536px;
+  /*676*/
+  border: 9px solid #55709d;
+  border-radius: 12px;
+  position: absolute;
+  top: 43px;
+  /*60*/
+  left: 10px;
+}
+
+.logo3 {
+  width: 150px;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.play {
+  background: linear-gradient(#2d6ac0, #41bbda);
+  color: #002e74;
+  border-color: #c4ced2;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 75px;
+  /*Same*/
+  height: 75px;
+  font-size: 35px;
+  border-radius: 35px;
+  position: absolute;
+  top: 165px;
+  left: 70px;
+  border-width: 4px;
+}
+
+.welcome {
+  color: #002e72;
+  width: 190px;
+  height: 35px;
+  position: absolute;
+  bottom: 221px;
+  left: 10px;
+  border-radius: 5px;
+  background: linear-gradient(#b4ccff, #75a1ff);
+  border: 1px solid #002e72;
+  z-index: 3;
+  box-shadow: 0 0 3px 1px white;
+}
+
+.Exp {
+  color: #002e72;
+  width: 190px;
+  height: 35px;
+  border-radius: 5px;
+  background: linear-gradient(#b4ccff, #75a1ff);
+  border: 1px solid #002e72;
+  position: absolute;
+  bottom: 177px;
+  left: 10px;
+  z-index: 3;
+}
+
+.Down {
+  color: #002e72;
+  width: 190px;
+  height: 35px;
+  border-radius: 5px;
+  background: linear-gradient(#b4ccff, #75a1ff);
+  border: 1px solid #002e72;
+  position: absolute;
+  left: 10px;
+  bottom: 133px;
+  z-index: 3;
+}
+
+.Content {
+  color: #002e72;
+  width: 190px;
+  height: 35px;
+  border-radius: 5px;
+  background: linear-gradient(#b4ccff, #75a1ff);
+  border: 1px solid #002e72;
+  position: absolute;
+  left: 10px;
+  bottom: 89px;
+  z-index: 3;
+}
+
+.Uploads {
+  color: #002e72;
+  width: 190px;
+  height: 35px;
+  border-radius: 5px;
+  background: linear-gradient(#b4ccff, #75a1ff);
+  border: 1px solid #002e72;
+  position: absolute;
+  left: 10px;
+  bottom: 45px;
+  z-index: 3;
+}
+
+.version {
+  color: #1b3f86;
+  position: absolute;
+  left: 80px;
+  bottom: 23px;
+}
+
+.info {
+  color: #1b3f86;
+  position: absolute;
+  left: 60px;
+  bottom: 2px;
+}
+/* Stop Here */ 
+
+.promo {
+  position: absolute;
+  left: 2px;
+  top: 125px;
+  /*190*/
+  height: 410px;
+  /*50 dif --> width*/
+  width: 330px;
+  /*- 2*/
+  /*315*/
+  z-index: 2;
+}
+
+.corner {
+  width: 580px;
+  height: 540px;
+  position: absolute;
+  top: 43px;
+  left: 243px;
+  border: 8px solid #506b98;
+  border-radius: 5px;
+  opacity: 0.95;
+}
+
+.second {
+  background-color: #42669f;
+  border: 2px solid #384d7b;
+  border-radius: 5px;
+  width: 578px;
+  height: 541px;
+  top: 5px;
+  z-index: 1;
+}
+
+.green {
+  width: 25px;
+  height: 25px;
+  /* background-color: #82b638; */
+  background: linear-gradient(#8fc344, #689a25);
+  border: 5px solid #4c4c4c;
+  border-radius: 15px;
+  position: absolute;
+  left: 122px;
+  bottom: 12px;
+  z-index: 2; 
+}
+
+.box {
+  top: 10px;
+  left: 50px;
+  width: 569px;
+  /*579. 564*/
+  height: 534px;
+  /*540*/
+  z-index: 3;
+}
+
+.upper {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background-color: #40598c;
+  color: white;
+  width: 294px;
+  height: 150px;
+  /*65*/
+  border: 1px solid #40598c;
+  z-index: 2;
+}
+
+.top {
+  font-size: 11px;
+  position: absolute;
+  top: 0px;
+  left: 105px;
+}
+
+.bottom {
+  position: absolute;
+  left: 105px;
+  top: 35px;
+}
+
+.logo4 {
+  position: absolute;
+  top: 3px;
+  left: 18px;
+  width: 80px;
+  height: 80px;
+}
+
+.right {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  color: pink;
+}
+
+.info2 {
+  font-size: 11px;
+  text-align: left;
+  position: absolute;
+  top: 70px;
+  left: 104px;
+  /*94*/
+  /*84*/
+}
+
+/*.box2{
+  z-index: 3;
+  color: white; 
+  width: 290px; 
+}*/
+.line {
+  border-left: 6px solid #55709d;
+  /* Border Colors */
+  height: 541px;
+  width: 278px;
+  position: absolute;
+  top: 0px;
+  right: 1px;
+  z-index: 3;
+}
+
+.transparent {
+  width: 273px;
+  height: 540px;
+  opacity: 0.82;
+  background-color: #3a5386;
+  z-index: 4;
+  position: absolute;
+  right: 7px;
+}
+
+.one {
+  width: 258px;
+  height: 90px;
+  background: linear-gradient(#7aa9f0, #acd0ff);
+  border: 6px solid #34446d;
+  border-radius: 10px;
+  z-index: 5;
+  position: absolute;
+  top: 15px;
+  right: 9px;
+}
+
+.oOne {
+  color: #020305;
+  position: absolute;
+  right: 30px;
+  font-size: 13px;
+  top: 1px;
+}
+
+.oTwo {
+  color: #203d80;
+  font-size: 10px;
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+}
+
+.oThree {
+  color: #203d80;
+  font-size: 10px;
+  position: absolute;
+  bottom: 15px;
+  right: 35px;
+}
+
+.login {
+  color: #002e72;
+  z-index: 6;
+  position: absolute;
+  top: 20px;
+  right: 27px;
+  width: 107px;
+  height: 22px;
+  background: linear-gradient(#b4ccff, #75a1ff);
+  border: 1px solid #002e72;
+  border-radius: 4px;
+}
+
+.ID {
+  /*width: 80px; 
+  height: 80px; */
+  z-index: 6;
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  border: 5px solid #426db5;
+  border-radius: 8px;
+}
+
+.two {
+  width: 258px;
+  height: 160px;
+  background-color: #cce1ff;
+  z-index: 6;
+  position: absolute;
+  top: 140px;
+  right: 9px;
+  border: 6px solid #34446d;
+  border-radius: 10px;
+}
+
+.tOne {
+  color: black;
+  font-size: 13px;
+  position: absolute;
+  right: 100px;
+  top: 15px;
+}
+
+.tTwo {
+  color: #0574b3;
+  font-size: 13px;
+  position: absolute;
+  top: 35px;
+  right: 20px;
+}
+
+.tThree {
+  color: #7d7d7d;
+  font-size: 13px;
+  position: absolute;
+  top: 60px;
+  right: 50px;
+}
+
+.tFour {
+  color: black;
+  font-size: 13px;
+  position: absolute;
+  top: 80px;
+  right: 50px;
+}
+
+.tdiv {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  color: #58974c;
+  border: 1px solid #bfbfc1;
+  border-radius: 3%;
+  position: absolute;
+  top: 100px;
+  right: 10px;
+}
+
+.fdiv {
+  position: absolute;
+  top: 13px;
+  right: 27px;
+}
+
+.thumb {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+}
+
+.tSecond {
+  position: absolute;
+  top: 0px;
+  width: 248px;
+  height: 150px;
+  border: 5px solid #79a8f0;
+  border-radius: 5px;
+}
+
+.three {
+  font-size: 11px;
+  width: 258px;
+  height: 41px;
+  position: absolute;
+  top: 424px;
+  right: 10px;
+  border: 6px solid #34446d;
+  border-radius: 11px;
+  background: linear-gradient(#7baaf1, #a9cdfe);
+  z-index: 6;
+}
+
+.tFont {
+  position: absolute;
+  left: 45px;
+  top: 5px;
+}
+
+.tImage {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.four {
+  position: absolute;
+  right: 10px;
+  top: 477px;
+  width: 258px;
+  height: 41px;
+  border: 6px solid #34446d;
+  border-radius: 11px;
+  background: linear-gradient(#7baaf1, #a9cdfe);
+  z-index: 6;
+}
+
+.logo {
+  width: 70px;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+
+.fOne {
+  position: absolute;
+  top: 6px;
+  left: 83px;
+  font-size: 30px;
+}
+
+.fTwo {
+  position: absolute;
+  top: 7px;
+  left: 120px;
+  font-size: 27px;
+}
+
+.fThree {
+  position: absolute;
+  font-size: 30px;
+  top: 5px;
+  right: 66px;
+}
+
+.fFour {
+  position: absolute;
+  font-size: 27px;
+  top: 6px;
+  right: 33px;
+}
+
+.fFive {
+  position: absolute;
+  font-size: 23px;
+  top: 7px;
+  right: 13px;
+}
+
+.point {
+  position: absolute;
+  top: 3px;
+  right: 6px;
+  color: #1e3c79;
+  font-size: 25px;
+  z-index: 3;
+  /* box-shadow: 0 0 3px 3px white; */
+}
+
+.blue {
+  position: absolute;
+  top: 278px;
+  left: 7px;
+  width: 220px;
+  height: 40px;
+  background-color: #58729d;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.special {
+  box-shadow: 0 0 3px 1px white;
+}
+
+/*.welcome:focus{
+  box-shadow: 0 0 3px 1px white;
+}*/
+/*.blue:focus+.welcome{
+  position: absolute;
+  top: 278px; 
+  left: 7px; 
+  width: 220px; 
+  height: 40px;
+  background-color: #58729d;
+  border-radius: 5px;
+  z-index: 2;
+} */
+.tdiv:hover {
+  background: linear-gradient(#9dc619, #25a03c);
+  color: white;
+}
+
+.logo:hover {
+  box-shadow: 0 0 10px 3px white;
+}
+
+.fOne:hover {
+  box-shadow: 0 0 10px 3px white;
+}
+
+.fTwo:hover {
+  box-shadow: 0 0 10px 3px white;
+}
+
+.i:hover {
+  box-shadow: 0 0 10px 3px white;
+}
+
+.welcome:hover {
+  background: #6c9cff;
+}
+
+.Exp:hover {
+  background: #6c9cff;
+}
+
+.Down:hover {
+  background: #6c9cff;
+}
+
+.Content:hover {
+  background: #6c9cff;
+}
+
+.Uploads:hover {
+  background: #6c9cff;
+}
+
+.upper:hover {
+  height: 120px;
+}
+
+.upper:not(:hover) {
+  height: 65px;
+}
+
+.login:hover {
+  color: white;
+}
+
+/*button:hover{
+  background-color: #bfd2fa; 
+}*/
+
+
+/* New font  
+Make working Sims 3 Icon 
+Make all buttons the same 
+Make elemnts not move 
+450 * 575 
+Put everything in order next time
+Add Links to all of the buttons
+Want to add a windows background and icon
+Could not see divs because I did not have position absolute
+*/
